@@ -24,6 +24,6 @@ docker manifest create quay.io/rohan_shinde_98/multi-arch-travis:latest ${AMEND}
 
 docker manifest inspect quay.io/rohan_shinde_98/multi-arch-travis
 
-docker login quay.io -u "$ROBOT_USER" -p $ROBOT_TOKEN
+# docker login quay.io -u "$ROBOT_USER" -p $ROBOT_TOKEN
 
-docker manifest push quay.io/rohan_shinde_98/multi-arch-travis:latest ${AMEND}
+# docker manifest push quay.io/rohan_shinde_98/multi-arch-travis:latest ${AMEND}
